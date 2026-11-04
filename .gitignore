@@ -1,0 +1,30 @@
+# Entornos virtuales de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache y compilados
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de configuracion local y secretos
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pesos de modelos y datasets grandes comunes en IA
+*.weights
+*.h5
+*.pt
+*.pth
+*.onnx
+data/raw/
