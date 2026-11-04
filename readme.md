@@ -9,8 +9,8 @@ Bienvenido al repositorio central del **Bootcamp de Python orientado a Inteligen
 ```text
 Repo_Mario (Bootcamp-Python) [Repo Principal]
 │
-├── .gemini/                       # Reglas, contexto y directrices para agentes de IA
-│   └── rules.md
+├── GEMINI.md / AGENTS.md          # Reglas y directrices de carga obligatoria para agentes
+├── .gemini/rules.md               # Contexto detallado del curso y configuración
 ├── .github/workflows/             # Automatización de GitHub Actions (sincronización remota)
 │   └── update-submodules.yml
 ├── scripts/                       # Scripts de automatización en local
@@ -19,7 +19,8 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
 ├── .gitignore                     # Filtros para entornos Python, caches y modelos de IA
 │
 └── 📦 Submódulos (Módulos del Curso):
-    └── EjemploPython/             # Submódulo: Fundamentos y primeros pasos
+    ├── EjemploPython/             # Submódulo: Fundamentos y primeros pasos
+    └── proyectoAgents/            # Submódulo: Agentes de Inteligencia Artificial
 ```
 
 ---
@@ -29,6 +30,7 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
 | Módulo / Carpeta | Descripción | Repositorio Remoto |
 | :--- | :--- | :--- |
 | **`EjemploPython`** | Introducción a sintaxis, estructuras y fundamentos de Python. | [EjemploPythonn](https://github.com/Mariogarluu/EjemploPythonn.git) |
+| **`proyectoAgents`** | Arquitectura y desarrollo de agentes con IA. | [ProyectoAgente](https://github.com/Mariogarluu/ProyectoAgente.git) |
 | *(Próximos módulos)* | *Numpy, Pandas, Redes Neuronales, LLMs, Computer Vision...* | *Se añadirán como submódulos* |
 
 ---
@@ -49,7 +51,7 @@ Para realizar un commit completo de forma automática:
 .\scripts\repo-manager.ps1 commit "Descripción de los cambios"
 ```
 > **¿Qué hace automáticamente?**
-> 1. Detecta cambios dentro de cualquier submódulo (`EjemploPython`, etc.), los añade, genera su commit fechado y hace `push origin main`.
+> 1. Detecta cambios dentro de cualquier submódulo (`EjemploPython`, `proyectoAgents`, etc.), los añade, genera su commit fechado y hace `push origin main`.
 > 2. Actualiza la referencia del submódulo en el repo padre.
 > 3. Genera el commit fechado en el repo padre y hace `push origin main`.
 
@@ -70,4 +72,4 @@ Para conectar un nuevo repositorio como módulo del curso (puede ejecutarlo cual
 ---
 
 ## 🤖 Directrices para Agentes de IA
-Si estás trabajando con un asistente o agente de IA en este proyecto, las directrices operativas completas se encuentran en [`.gemini/rules.md`](file:///c:/Users/Mañana/Desktop/Repo_Mario/.gemini/rules.md).
+Todos los agentes cargan automáticamente las reglas definidas en [`GEMINI.md`](file:///c:/Users/Mañana/Desktop/Repo_Mario/GEMINI.md) y [`AGENTS.md`](file:///c:/Users/Mañana/Desktop/Repo_Mario/AGENTS.md).
