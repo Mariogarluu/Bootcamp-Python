@@ -1,3 +1,6 @@
 [submodule "EjemploPython"]
 	path = EjemploPython
 	url = https://github.com/Mariogarluu/EjemploPythonn.git
+[submodule "proyectoAgents"]
+	path = proyectoAgents
+	url = https://github.com/Mariogarluu/ProyectoAgente.git
