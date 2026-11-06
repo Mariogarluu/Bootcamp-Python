@@ -21,7 +21,8 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
 └── 📦 Submódulos (Módulos del Curso):
     ├── EjemploPython/             # Submódulo: Fundamentos de sintaxis y lógica en Python
     ├── proyectoAgents/            # Submódulo: Agentes locales con LangChain y Ollama
-    └── Agente-Multitool/          # Submódulo: Agente ReAct con Groq y Dragon Ball API
+    ├── Agente-Multitool/          # Submódulo: Agente ReAct con Groq y Dragon Ball API
+    └── RAG/                       # Submódulo: Sistema RAG con LangChain, ChromaDB y Groq
 ```
 
 ---
@@ -32,8 +33,9 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
 | :--- | :--- | :--- | :--- |
 | [**`EjemploPython`**](./EjemploPython) | Fundamentos del lenguaje Python, control de flujo, funciones y estructuras de datos. | Python 3 | [Mariogarluu/EjemploPythonn](https://github.com/Mariogarluu/EjemploPythonn.git) |
 | [**`proyectoAgents`**](./proyectoAgents) | Introducción a agentes inteligentes locales con ejecución offline de modelos LLM. | LangChain, Ollama (`qwen3:8b`) | [Mariogarluu/ProyectoAgente](https://github.com/Mariogarluu/ProyectoAgente.git) |
-| [**`Agente-Multitool`**](./Agente-Multitool) | Agente autónomo ReAct con invocación dinámica de múltiples herramientas conectadas a APIs REST. | LangGraph, LangChain, Groq (`llama-3.3-70b`), Dragon Ball API | [Mariogarluu/Agente_multitool](https://github.com/Mariogarluu/Agente_multitool.git) |
-| *(Próximos módulos)* | *Numpy, Pandas, Redes Neuronales, RAG, Computer Vision...* | *Torch, Scikit-learn, etc.* | *Se añadirán como submódulos* |
+| [**`Agente-Multitool`**](./Agente-Multitool) | Agente autónomo ReAct con invocación dinámica de múltiples herramientas conectadas a APIs REST. | LangGraph, LangChain, Groq (`qwen/qwen3.8-27b`), Dragon Ball API | [Mariogarluu/Agente_multitool](https://github.com/Mariogarluu/Agente_multitool.git) |
+| [**`RAG`**](./RAG) | Pipeline de Generación Aumentada por Recuperación (RAG) indexando PDFs con vectorstore persistente. | LangChain, ChromaDB, Ollama (`nomic-embed-text`), Groq | [Mariogarluu/RAG-1](https://github.com/Mariogarluu/RAG-1.git) |
+| *(Próximos módulos)* | *Numpy, Pandas, Redes Neuronales, Computer Vision...* | *Torch, Scikit-learn, etc.* | *Se añadirán como submódulos* |
 
 ---
 

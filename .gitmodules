@@ -7,3 +7,6 @@
 [submodule "Agente-Multitool"]
 	path = Agente-Multitool
 	url = https://github.com/Mariogarluu/Agente_multitool.git
+[submodule "RAG"]
+	path = RAG
+	url = https://github.com/Mariogarluu/RAG-1.git
