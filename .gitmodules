@@ -4,3 +4,6 @@
 [submodule "proyectoAgents"]
 	path = proyectoAgents
 	url = https://github.com/Mariogarluu/ProyectoAgente.git
+[submodule "Agente-Multitool"]
+	path = Agente-Multitool
+	url = https://github.com/Mariogarluu/Agente_multitool.git
