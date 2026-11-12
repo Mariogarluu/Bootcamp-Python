@@ -10,3 +10,6 @@
 [submodule "RAG"]
 	path = RAG
 	url = https://github.com/Mariogarluu/RAG-1.git
+[submodule "ChromaPersistente"]
+	path = ChromaPersistente
+	url = https://github.com/Mariogarluu/chromaPersistente.git
