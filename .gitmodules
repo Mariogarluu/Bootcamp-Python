@@ -13,3 +13,6 @@
 [submodule "ChromaPersistente"]
 	path = ChromaPersistente
 	url = https://github.com/Mariogarluu/chromaPersistente.git
+[submodule "LangGraph"]
+	path = LangGraph
+	url = https://github.com/Mariogarluu/Lang_graph.git

@@ -23,7 +23,8 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
     ├── proyectoAgents/            # Submódulo: Agentes locales con LangChain y Ollama
     ├── Agente-Multitool/          # Submódulo: Agente ReAct con Groq y Dragon Ball API
     ├── RAG/                       # Submódulo: Sistema RAG con LangChain, ChromaDB y Groq
-    └── ChromaPersistente/         # Submódulo: RAG con ChromaDB persistente y Ollama (local)
+    ├── ChromaPersistente/         # Submódulo: RAG con ChromaDB persistente y Ollama (local)
+    └── LangGraph/                 # Submódulo: Asistente con LangGraph, FastAPI y ChromaDB
 ```
 
 ---
@@ -37,6 +38,7 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
 | [**`Agente-Multitool`**](./Agente-Multitool) | Agente autónomo ReAct con invocación dinámica de múltiples herramientas conectadas a APIs REST. | LangGraph, LangChain, Groq (`qwen/qwen3.8-27b`), Dragon Ball API | [Mariogarluu/Agente_multitool](https://github.com/Mariogarluu/Agente_multitool.git) |
 | [**`RAG`**](./RAG) | Pipeline de Generación Aumentada por Recuperación (RAG) indexando PDFs con vectorstore persistente. | LangChain, ChromaDB, Ollama (`nomic-embed-text`), Groq | [Mariogarluu/RAG-1](https://github.com/Mariogarluu/RAG-1.git) |
 | [**`ChromaPersistente`**](./ChromaPersistente) | Sistema RAG con almacenamiento vectorial persistente en ChromaDB y generación local con Ollama. | LangChain, ChromaDB, Ollama (`nomic-embed-text`, `llama3.1:8b`) | [Mariogarluu/chromaPersistente](https://github.com/Mariogarluu/chromaPersistente.git) |
+| [**`LangGraph`**](./LangGraph) | Asistente de soporte con grafo de decisión condicional, RAG vectorial y API REST con FastAPI. | LangGraph, FastAPI, ChromaDB, Ollama (`llama3.1:8b`) | [Mariogarluu/Lang_graph](https://github.com/Mariogarluu/Lang_graph.git) |
 | *(Próximos módulos)* | *Numpy, Pandas, Redes Neuronales, Computer Vision...* | *Torch, Scikit-learn, etc.* | *Se añadirán como submódulos* |
 
 ---
