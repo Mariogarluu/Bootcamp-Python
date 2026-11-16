@@ -16,3 +16,6 @@
 [submodule "LangGraph"]
 	path = LangGraph
 	url = https://github.com/Mariogarluu/Lang_graph.git
+[submodule "Pildora-Docker"]
+	path = Pildora-Docker
+	url = https://github.com/Mariogarluu/Pildora-Docker.git

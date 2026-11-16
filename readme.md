@@ -24,7 +24,8 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
     ├── Agente-Multitool/          # Submódulo: Agente ReAct con Groq y Dragon Ball API
     ├── RAG/                       # Submódulo: Sistema RAG con LangChain, ChromaDB y Groq
     ├── ChromaPersistente/         # Submódulo: RAG con ChromaDB persistente y Ollama (local)
-    └── LangGraph/                 # Submódulo: Asistente con LangGraph, FastAPI y ChromaDB
+    ├── LangGraph/                 # Submódulo: Asistente con LangGraph, FastAPI y ChromaDB
+    └── Pildora-Docker/            # Submódulo: Contenedorización de FastAPI y Ollama (Gemma 3) con Docker Compose
 ```
 
 ---
@@ -39,6 +40,7 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
 | [**`RAG`**](./RAG) | Pipeline de Generación Aumentada por Recuperación (RAG) indexando PDFs con vectorstore persistente. | LangChain, ChromaDB, Ollama (`nomic-embed-text`), Groq | [Mariogarluu/RAG-1](https://github.com/Mariogarluu/RAG-1.git) |
 | [**`ChromaPersistente`**](./ChromaPersistente) | Sistema RAG con almacenamiento vectorial persistente en ChromaDB y generación local con Ollama. | LangChain, ChromaDB, Ollama (`nomic-embed-text`, `llama3.1:8b`) | [Mariogarluu/chromaPersistente](https://github.com/Mariogarluu/chromaPersistente.git) |
 | [**`LangGraph`**](./LangGraph) | Asistente de soporte con grafo de decisión condicional, RAG vectorial y API REST con FastAPI. | LangGraph, FastAPI, ChromaDB, Ollama (`llama3.1:8b`) | [Mariogarluu/Lang_graph](https://github.com/Mariogarluu/Lang_graph.git) |
+| [**`Pildora-Docker`**](./Pildora-Docker) | Orquestación con Docker Compose de FastAPI y servidor Ollama con modelo Gemma 3 multimodal. | Docker, Docker Compose, FastAPI, LangChain, Ollama (`gemma3:4b`) | [Mariogarluu/Pildora-Docker](https://github.com/Mariogarluu/Pildora-Docker.git) |
 | *(Próximos módulos)* | *Numpy, Pandas, Redes Neuronales, Computer Vision...* | *Torch, Scikit-learn, etc.* | *Se añadirán como submódulos* |
 
 ---
