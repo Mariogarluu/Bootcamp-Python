@@ -19,3 +19,6 @@
 [submodule "Pildora-Docker"]
 	path = Pildora-Docker
 	url = https://github.com/Mariogarluu/Pildora-Docker.git
+[submodule "PokeEstratega-AI"]
+	path = PokeEstratega-AI
+	url = https://github.com/Mariogarluu/PokeEstratega-AI.git

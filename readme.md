@@ -25,7 +25,8 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
     ├── RAG/                       # Submódulo: Sistema RAG con LangChain, ChromaDB y Groq
     ├── ChromaPersistente/         # Submódulo: RAG con ChromaDB persistente y Ollama (local)
     ├── LangGraph/                 # Submódulo: Asistente con LangGraph, FastAPI y ChromaDB
-    └── Pildora-Docker/            # Submódulo: Contenedorización de FastAPI y Ollama (Gemma 3) con Docker Compose
+    ├── Pildora-Docker/            # Submódulo: Contenedorización de FastAPI y Ollama (Gemma 3) con Docker Compose
+    └── PokeEstratega-AI/          # Submódulo: Asistente y Teambuilder Competitivo Pokémon con LangGraph y Showdown
 ```
 
 ---
@@ -41,6 +42,7 @@ Repo_Mario (Bootcamp-Python) [Repo Principal]
 | [**`ChromaPersistente`**](./ChromaPersistente) | Sistema RAG con almacenamiento vectorial persistente en ChromaDB y generación local con Ollama. | LangChain, ChromaDB, Ollama (`nomic-embed-text`, `llama3.1:8b`) | [Mariogarluu/chromaPersistente](https://github.com/Mariogarluu/chromaPersistente.git) |
 | [**`LangGraph`**](./LangGraph) | Asistente de soporte con grafo de decisión condicional, RAG vectorial y API REST con FastAPI. | LangGraph, FastAPI, ChromaDB, Ollama (`llama3.1:8b`) | [Mariogarluu/Lang_graph](https://github.com/Mariogarluu/Lang_graph.git) |
 | [**`Pildora-Docker`**](./Pildora-Docker) | Orquestación con Docker Compose de FastAPI y servidor Ollama con modelo Gemma 3 multimodal. | Docker, Docker Compose, FastAPI, LangChain, Ollama (`gemma3:4b`) | [Mariogarluu/Pildora-Docker](https://github.com/Mariogarluu/Pildora-Docker.git) |
+| [**`PokeEstratega-AI`**](./PokeEstratega-AI) | Asesor competitivo y teambuilder (Pokemon Añil): cálculo exacto de coberturas, exportador Showdown y UI Pokédex. | LangGraph, FastAPI, ChromaDB, Ollama (`llama3.1:8b`), Docker | [Mariogarluu/PokeEstratega-AI](https://github.com/Mariogarluu/PokeEstratega-AI.git) |
 | *(Próximos módulos)* | *Numpy, Pandas, Redes Neuronales, Computer Vision...* | *Torch, Scikit-learn, etc.* | *Se añadirán como submódulos* |
 
 ---
